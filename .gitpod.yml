@@ -1,0 +1,9 @@
+tasks:
+  - name: Setup Flutter
+    init: |
+      git clone https://github.com/flutter/flutter.git -b stable
+      export PATH="$PATH:/workspace/Account_Manager_App/flutter/bin"
+      flutter doctor
+      flutter pub get
+    command: |
+      echo "Flutter is ready! Run 'flutter run -d web' to start."
