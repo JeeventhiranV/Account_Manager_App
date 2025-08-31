@@ -1,7 +1,0 @@
-image: ghcr.io/cirruslabs/flutter:latest
-
-tasks:
-  - name: Setup Flutter
-    command: |
-      flutter doctor
-      flutter pub get
